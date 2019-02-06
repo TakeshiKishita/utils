@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>4.0</version>
-    <date>2019-02-05T15:54:10Z</date>
+    <date>2019-02-06T14:52:11Z</date>
     <groups>
         <group>
             <name>Templates</name>
@@ -31,13 +31,13 @@
                     <snmp_community/>
                     <snmp_oid/>
                     <key>sensor[coretemp-isa-0000,temp2]</key>
-                    <delay>30</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
+                    <delay>30s</delay>
+                    <history>7d</history>
+                    <trends>30d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
-                    <units>deg.</units>
+                    <units>c</units>
                     <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
@@ -86,13 +86,13 @@
                     <snmp_community/>
                     <snmp_oid/>
                     <key>sensor[coretemp-isa-0000,temp3]</key>
-                    <delay>30</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
+                    <delay>30s</delay>
+                    <history>7d</history>
+                    <trends>30d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
-                    <units>deg.</units>
+                    <units>c</units>
                     <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
@@ -141,13 +141,13 @@
                     <snmp_community/>
                     <snmp_oid/>
                     <key>sensor[coretemp-isa-0000,temp4]</key>
-                    <delay>30</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
+                    <delay>30s</delay>
+                    <history>7d</history>
+                    <trends>30d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
-                    <units>deg.</units>
+                    <units>c</units>
                     <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
@@ -196,13 +196,13 @@
                     <snmp_community/>
                     <snmp_oid/>
                     <key>sensor[coretemp-isa-0000,temp5]</key>
-                    <delay>30</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
+                    <delay>30s</delay>
+                    <history>7d</history>
+                    <trends>30d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
-                    <units>deg.</units>
+                    <units>c</units>
                     <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
@@ -251,13 +251,13 @@
                     <snmp_community/>
                     <snmp_oid/>
                     <key>sensor[coretemp-isa-0000,temp6]</key>
-                    <delay>30</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
+                    <delay>30s</delay>
+                    <history>7d</history>
+                    <trends>30d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
-                    <units>deg.</units>
+                    <units>c</units>
                     <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
@@ -306,13 +306,13 @@
                     <snmp_community/>
                     <snmp_oid/>
                     <key>sensor[coretemp-isa-0000,temp7]</key>
-                    <delay>30</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
+                    <delay>30s</delay>
+                    <history>7d</history>
+                    <trends>30d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
-                    <units>deg.</units>
+                    <units>c</units>
                     <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
@@ -361,13 +361,13 @@
                     <snmp_community/>
                     <snmp_oid/>
                     <key>sensor[coretemp-isa-0000,temp8]</key>
-                    <delay>30</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
+                    <delay>30s</delay>
+                    <history>7d</history>
+                    <trends>30d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
-                    <units>deg.</units>
+                    <units>c</units>
                     <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
@@ -416,13 +416,68 @@
                     <snmp_community/>
                     <snmp_oid/>
                     <key>sensor[coretemp-isa-0000,temp9]</key>
-                    <delay>30</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
+                    <delay>30s</delay>
+                    <history>7d</history>
+                    <trends>30d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
-                    <units>deg.</units>
+                    <units>c</units>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications/>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <timeout>3s</timeout>
+                    <url/>
+                    <query_fields/>
+                    <posts/>
+                    <status_codes>200</status_codes>
+                    <follow_redirects>1</follow_redirects>
+                    <post_type>0</post_type>
+                    <http_proxy/>
+                    <headers/>
+                    <retrieve_mode>0</retrieve_mode>
+                    <request_method>0</request_method>
+                    <output_format>0</output_format>
+                    <allow_traps>0</allow_traps>
+                    <ssl_cert_file/>
+                    <ssl_key_file/>
+                    <ssl_key_password/>
+                    <verify_peer>0</verify_peer>
+                    <verify_host>0</verify_host>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>Free Memory</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>vm.vmemory.size[free]</key>
+                    <delay>30s</delay>
+                    <history>7d</history>
+                    <trends>30d</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>GB</units>
                     <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
@@ -475,7 +530,14 @@
     </templates>
     <triggers>
         <trigger>
-            <expression>{CPU Temperature:sensor[coretemp-isa-0000,temp2].avg(1m)}&gt;90</expression>
+            <expression>{CPU Temperature:sensor[coretemp-isa-0000,temp2].avg(1m)}&gt;90 or &#13;
+{CPU Temperature:sensor[coretemp-isa-0000,temp3].avg(1m)}&gt;90 or &#13;
+{CPU Temperature:sensor[coretemp-isa-0000,temp4].avg(1m)}&gt;90 or &#13;
+{CPU Temperature:sensor[coretemp-isa-0000,temp5].avg(1m)}&gt;90 or &#13;
+{CPU Temperature:sensor[coretemp-isa-0000,temp6].avg(1m)}&gt;90 or &#13;
+{CPU Temperature:sensor[coretemp-isa-0000,temp7].avg(1m)}&gt;90 or &#13;
+{CPU Temperature:sensor[coretemp-isa-0000,temp8].avg(1m)}&gt;90 or &#13;
+{CPU Temperature:sensor[coretemp-isa-0000,temp9].avg(1m)}&gt;90</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
             <name>CPU temperature over 90c</name>
